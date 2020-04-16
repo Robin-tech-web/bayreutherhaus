@@ -2,7 +2,7 @@
 .home-banner {
   background-image: url('http://www.bayreutherhaus.de/images/large/1500216/IMGP2187.JPG');
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   color: #eee;
   text-align: center;
@@ -19,4 +19,8 @@
 .home-banner h2 {
 	font-family: Poppins;
 	font-size: 40px;
+}
+
+.center {
+  display: inline-block;
 }
