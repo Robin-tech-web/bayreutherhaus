@@ -1,12 +1,18 @@
 // Specific CSS for your home-page
 .home-banner {
-  background-image: url('http://www.bayreutherhaus.de/images/large/1500216/IMGP2187.JPG');
+  background-image: url('http://www.bayreutherhaus.de/images/large/143731/Bthaussommer.jpg');
   background-size: cover;
+  background-position: 50% 50%;
   height: 90vh;
-  width: 100%;
   color: #eee;
   text-align: center;
   padding-top: 40vh;
+}
+
+.neuerfindung {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-banner h1 {
@@ -21,6 +27,7 @@
 	font-size: 40px;
 }
 
-.center {
+.text-block {
   display: inline-block;
+  font-size: 20px;
 }
