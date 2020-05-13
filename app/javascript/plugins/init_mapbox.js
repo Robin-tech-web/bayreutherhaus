@@ -8,6 +8,9 @@ const initMapbox = () => {
     const map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/streets-v10'
+    new mapboxgl.Marker()
+      .setLngLat([ -77.036560, 38.897957 ])
+      .addTo(map);
     });
   }
 };
